@@ -1,0 +1,24 @@
+{
+  "name": "adventjs",
+  "version": "1.0.0",
+  "description": "Solutions to https://adventjs.dev/ challenges.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sguemar/adventjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sguemar/adventjs/issues"
+  },
+  "homepage": "https://github.com/sguemar/adventjs#readme",
+  "devDependencies": {
+    "standard": "17.0.0",
+    "vitest": "0.30.1"
+  }
+}
