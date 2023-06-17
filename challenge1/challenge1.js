@@ -1,5 +1,5 @@
-export default function countSheeps (sheeps) {
-  return sheeps.filter((sheep) => {
+export default function countSheep (sheepList) {
+  return sheepList.filter((sheep) => {
     const lowerCaseName = sheep.name.toLowerCase()
     return (
       sheep.color === 'rojo' &&
