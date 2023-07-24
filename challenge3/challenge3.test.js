@@ -25,4 +25,12 @@ describe('The Grinch wants to spoil Christmas!', () => {
     expect(isValid('(bike) car )playstation(')).toBeFalsy()
     expect(isValid('(bike) ((car) (playstation)))(')).toBeFalsy()
   })
+
+  it('should return true with letters with correct parentheses', () => {
+    expect(isValid('(car)')).toBeTruthy()
+    expect(isValid('(bike)(car playstation)')).toBeTruthy()
+    expect(isValid('bike (car) (playstation)')).toBeTruthy()
+    expect(isValid('(bike) (car (playstation))')).toBeTruthy()
+    expect(isValid('(bike) (car) (playstation)')).toBeTruthy()
+  })
 })
