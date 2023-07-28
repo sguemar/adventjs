@@ -4,9 +4,10 @@ const OPEN_BRACKET = '['
 const OPEN_BRACE = '{'
 
 export default function isValid (letter) {
+  if (letter.includes('()')) return false
+
   let parenthesesCount = 0
   let currentChar = ''
-  if (letter.includes('()')) return false
 
   for (let i = 0; i < letter.length; i++) {
     currentChar = letter[i]
