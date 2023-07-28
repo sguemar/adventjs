@@ -41,4 +41,11 @@ describe('The Grinch wants to spoil Christmas!', () => {
     expect(isValid('([bike) (car (playstation))')).toBeFalsy()
     expect(isValid('(bike {car [playstation)')).toBeFalsy()
   })
+
+  it('should return false if there are any empty parenthesis', () => {
+    expect(isValid('bike ()car playstation')).toBeFalsy()
+    expect(isValid('()bike car (playstation)')).toBeFalsy()
+    expect(isValid('(bike) car (playstation)()')).toBeFalsy()
+    expect(isValid('(bike) (car) () (playstation')).toBeFalsy()
+  })
 })
