@@ -6,6 +6,7 @@ const OPEN_BRACE = '{'
 export const isValid = (letter) => {
   let parenthesesCount = 0
   let currentChar = ''
+  if (letter.includes('()')) return false
 
   for (let i = 0; i < letter.length; i++) {
     currentChar = letter[i]
