@@ -3,7 +3,7 @@ const CLOSE_PARENTHESES = ')'
 const OPEN_BRACKET = '['
 const OPEN_BRACE = '{'
 
-export const isValid = (letter) => {
+export default function isValid (letter) {
   let parenthesesCount = 0
   let currentChar = ''
   if (letter.includes('()')) return false

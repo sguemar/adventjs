@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { isValid } from './challenge3'
+import isValid from './challenge3'
 
 describe('The Grinch wants to spoil Christmas!', () => {
   it('should be a function', () => {
