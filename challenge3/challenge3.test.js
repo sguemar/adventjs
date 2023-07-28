@@ -33,4 +33,12 @@ describe('The Grinch wants to spoil Christmas!', () => {
     expect(isValid('(bike) (car (playstation))')).toBeTruthy()
     expect(isValid('(bike) (car) (playstation)')).toBeTruthy()
   })
+
+  it('should return false if there is an open brace or open bracket in the letter', () => {
+    expect(isValid('({car)')).toBeFalsy()
+    expect(isValid('(bike)(car{ playstation)')).toBeFalsy()
+    expect(isValid('bike ({[car) (playstation)')).toBeFalsy()
+    expect(isValid('([bike) (car (playstation))')).toBeFalsy()
+    expect(isValid('(bike {car [playstation)')).toBeFalsy()
+  })
 })
