@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import shouldBuyFidelity from './challenge11'
 
-describe('', () => {
+describe('Is the movie theater fidelity card worth?', () => {
   it('should be a function', () => {
     expect(typeof shouldBuyFidelity).toBe('function')
   })
