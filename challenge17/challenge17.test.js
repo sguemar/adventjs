@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import countPackages from './challenge17'
 
-describe('', () => {
+describe('The madness of sending parcels this season', () => {
   it('should be a function', () => {
     expect(typeof countPackages).toBe('function')
   })
