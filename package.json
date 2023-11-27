@@ -1,5 +1,5 @@
 {
-  "name": "adventjs",
+  "name": "adventjs-solutions",
   "version": "1.0.0",
   "description": "Solutions to https://adventjs.dev/ challenges.",
   "main": "index.js",
