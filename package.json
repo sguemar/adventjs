@@ -11,7 +11,11 @@
     "type": "git",
     "url": "git+https://github.com/sguemar/adventjs.git"
   },
-  "keywords": [],
+  "keywords": [
+    "adventjs",
+    "javascript",
+    "midudev"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
