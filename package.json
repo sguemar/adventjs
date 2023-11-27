@@ -24,7 +24,7 @@
   "homepage": "https://github.com/sguemar/adventjs#readme",
   "devDependencies": {
     "standard": "17.1.0",
-    "vitest": "0.31.4"
+    "vitest": "0.34.5"
   },
   "eslintConfig": {
     "extends": "./node_modules/standard/eslintrc.json"
